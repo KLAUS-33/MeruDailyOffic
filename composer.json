@@ -1,0 +1,21 @@
+{
+    "name": "attachee/session",
+    "description": "Start up project for MVC concepts",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Attachee\\Session\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "nicholas",
+            "email": "nicholuskirinya7@gmial.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "sigawa/mvc-core": "^1.0.2"
+    }
+}
