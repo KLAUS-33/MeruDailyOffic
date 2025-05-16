@@ -1,7 +1,7 @@
 <!-- Hero Carousel (Full Width and 70vh Height) -->
 <div class="relative w-full h-[80vh] overflow-hidden">
     <!-- Slide 1 -->
-    <section class="absolute top-0 left-0 w-full h-full bg-[url('/assets/img/home1.jpg')] bg-cover bg-center text-white text-center flex items-center justify-center opacity-100 transition-opacity duration-1000" data-slide="1">
+    <section class="absolute top-0 left-0 w-full h-full bg-[url('/assets/img/home11.jpg')] bg-cover bg-center text-white text-center flex items-center justify-center opacity-100 transition-opacity duration-1000" data-slide="1">
         <div class="bg-black/0 absolute inset-0 z-0"></div>
         <div class="relative z-10">
             <!-- <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Welcome to Mount Kenya Milk</h1>
@@ -10,7 +10,7 @@
     </section>
 
     <!-- Slide 2 -->
-    <section class="absolute top-0 left-0 w-full h-full bg-[url('/assets/img/home4.jpg')] bg-cover bg-center text-white text-center flex items-center justify-center opacity-0 transition-opacity duration-1000" data-slide="2">
+    <section class="absolute top-0 left-0 w-full h-full bg-[url('/assets/img/home44.jpg')] bg-cover bg-center text-white text-center flex items-center justify-center opacity-0 transition-opacity duration-1000" data-slide="2">
         <div class="bg-black/0 absolute inset-0 z-0"></div>
         <!-- <div class="relative z-10">
             <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Discover Our Fresh Milk</h1>
@@ -27,7 +27,7 @@
         </div> -->
     </section>
     <!-- Slide 4 -->
-    <section class="absolute top-0 left-0 w-full h-full bg-[url('/assets/img/home2.jpg')] bg-cover bg-center text-white text-center flex items-center justify-center opacity-0 transition-opacity duration-1000" data-slide="4">
+    <section class="absolute top-0 left-0 w-full h-full bg-[url('/assets/img/home22.jpg')] bg-cover bg-center text-white text-center flex items-center justify-center opacity-0 transition-opacity duration-1000" data-slide="4">
         <div class="bg-black/0 absolute inset-0 z-0"></div>
         <!-- <div class="relative z-10">
             <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">Join Our Campaign!</h1>
@@ -38,60 +38,7 @@
 <!-- Product Showcase Section -->
 <section class="bg-white py-8">
     <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <!-- Fresh Milk -->
-            <div class="text-center">
-                <div class="bg-[#00aeef] text-white p-4 rounded-t-lg">
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
-                    </svg>
-                </div>
-                <div class="bg-gray-50 p-4 rounded-b-lg">
-                    <h3 class="text-lg font-semibold text-indigo-800">Mount Kenya Fresh Milk</h3>
-                    <p class="text-sm text-gray-600 mt-2">Our milk has been treated using latest technologies to bring out the delicious natural taste of milk. It truly the cool mountain freshness.</p>
-                    <a href="/products" class="text-blue-600 hover:underline mt-2 inline-block">→</a>
-                </div>
-            </div>
-            <!-- Yoghurt -->
-            <div class="text-center">
-                <div class="bg-[#00aeef] text-white p-4 rounded-t-lg">
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v4m0 0v4a2 2 0 01-2 2H8m4-6h4m-4 0l4 4"></path>
-                    </svg>
-                </div>
-                <div class="bg-gray-50 p-4 rounded-b-lg">
-                    <h3 class="text-lg font-semibold text-indigo-800">Mount Kenya Yoghurt</h3>
-                    <p class="text-sm text-gray-600 mt-2">Our yoghurt is delicious and nutritious, it comes in two flavors, Strawberry and Vanilla.</p>
-                    <a href="/products" class="text-blue-600 hover:underline mt-2 inline-block">→</a>
-                </div>
-            </div>
-            <!-- Lala -->
-            <div class="text-center">
-                <div class="bg-[#00aeef] text-white p-4 rounded-t-lg">
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v6m-4 2h8m-8 0a4 4 0 008 0 4 4 0 00-8 0zm4 4v6"></path>
-                    </svg>
-                </div>
-                <div class="bg-gray-50 p-4 rounded-b-lg">
-                    <h3 class="text-lg font-semibold text-indigo-800">Mount Kenya Lala</h3>
-                    <p class="text-sm text-gray-600 mt-2">Our lala is amazing, it's been produced under stringent conditions to bring the real taste of lala.</p>
-                    <a href="/products" class="text-blue-600 hover:underline mt-2 inline-block">→</a>
-                </div>
-            </div>
-            <!-- Ghee -->
-            <div class="text-center">
-                <div class="bg-[#00aeef] text-white p-4 rounded-t-lg">
-                    <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5h8a2 2 0 012 2v10a2 2 0 01-2 2H8a2 2 0 01-2-2V7a2 2 0 012-2zm4 12l4-4"></path>
-                    </svg>
-                </div>
-                <div class="bg-gray-50 p-4 rounded-b-lg">
-                    <h3 class="text-lg font-semibold text-indigo-800">Mount Kenya Ghee</h3>
-                    <p class="text-sm text-gray-600 mt-2">Our ghee has been prepared by experts to ensure you get to enjoy tasty and nutritious food.</p>
-                    <a href="/products" class="text-blue-600 hover:underline mt-2 inline-block">→</a>
-                </div>
-            </div>
-        </div>
+        
         <!-- Call-to-Action Section -->
         <div class="mt-8 bg-indigo-800 text-white text-center py-6 rounded-lg">
             <h2 class="text-2xl font-bold">PROVIDING KENYA WITH THE BEST MILK PRODUCTS FOR A HEALTHY LIFE</h2>
